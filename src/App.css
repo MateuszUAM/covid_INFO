@@ -1,0 +1,120 @@
+@font-face {
+  font-family: ModerateSansFont;
+  src: url(./images/Moderne\ Sans\ Font.ttf);
+}
+
+html {
+  color: white;
+  background-image: url("./images/background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  opacity: 100%;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  font-family: ModerateSansFont;
+}
+
+input {
+  font-size: large;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button {
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color: #33bdef;
+  border-radius: 6px;
+  border: 1px solid #057fd0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: ModerateSansFont;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #5b6178;
+}
+
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+
+p {
+  font-size: 25px;
+  font-family: ModerateSansFont;
+}
+
+.data {
+  text-align: center;
+  float: right;
+  margin-right: 44%;
+  margin-top: 8%;
+}
+
+.population {
+  color: white;
+}
+
+.infected {
+  color: yellow;
+}
+
+.recovered {
+  color: greenyellow;
+}
+
+.deaths {
+  color: rgb(255, 61, 61);
+}
+
+img {
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;
+  float: left;
+  width: 25%;
+  border-radius: 25%;
+  /* border: 5px solid #555; */
+  margin-top: 8%;
+}
+
+p:hover {
+  transform: scale(1.5);
+}
+
+.chart {
+  margin-left: 70%;
+  margin-right: 7%;
+  height: 25%;
+  margin-top: -10%;
+  transform: scale(0.5);
+  border: 5px solid #555;
+}
+
+.chart:hover {
+  transform: scale(1.20);
+  margin-left: 25%;
+  margin-top: -15.5%;
+}
+
+img:hover {
+  transform: scale(1.5);
+  margin-top: 1.5%;
+}
+
+#logo {
+  position: fixed;
+  right: -12%;
+  top: 7%;
+  width: 20%;
+  margin-top: -2.5em;
+}
